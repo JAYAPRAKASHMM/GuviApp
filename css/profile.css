@@ -1,0 +1,43 @@
+body {
+    background: #76b852; /* fallback for old browsers */
+    background: rgb(141, 194, 111);
+    background: linear-gradient(90deg, rgba(141, 194, 111, 1) 0%, rgba(118, 184, 82, 1) 50%);
+    font-family: "Roboto", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #ffffff; /* Set text color to white */
+}
+
+.container {
+    max-width: 800px; /* Adjust max-width as needed */
+}
+body {
+    overflow: hidden;
+}
+.logo-container {
+    top:20;
+    text-shadow: black;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    text-align: center;
+    margin: 20px;
+}
+#responseModalLabel,
+#responseMessage {
+    color: black;
+}
+.custom-h1 {
+    color: black;
+    font-weight: bold;
+}
+
+
+.logo-container img {
+    max-width: 40%;
+    height: auto;
+    transform: translateY(-40%) scale(1.5);
+
+    border-radius: 75%; /* Set the border radius greater than 50% */
+}

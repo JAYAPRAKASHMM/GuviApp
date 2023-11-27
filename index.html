@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+
+</head>
+<body>
+    <div class="hero">
+        <div class="container">
+            <div class="row justify-content-center">
+                <nav class="text-center col-md-6">
+                    <ul>
+                        <li><a href="">Lighten your future</a></li><br>
+                        <li><a href="">with us</a></li>
+                    </ul>
+                    <button type="button" class="ml-2" onclick="toggleBtn()" id="btn"><span></span></button>
+                </nav>
+            </div>
+
+        </div>
+
+        <div class="lamp-container">
+            <img src="https://i.postimg.cc/yYz5Nnqw/lamp.png" alt="" class="lamp">
+            <img src="https://i.postimg.cc/SxgtDhXh/light.png" alt="" class="light" id="light"><br>
+            
+        </div>
+
+        <div class="text-container">
+            <h1>Guvi<br>To grow and grasp</h1>
+            <p>Unlock Your Potential, Anytime, Anywhere: Learn Beyond Boundaries!</p>
+            <a class="ml-2" href="login.html">Login</a>
+            <a class="ml-2" href="register.html">Register</a>
+
+            <div class="control">
+                <p>04</p>
+                <div class="line"><span></span></div>
+                <p>05</p>
+            </div>
+        </div>
+    </div>
+    <script>
+        var btn = document.getElementById("btn");
+        var light = document.getElementById("light");
+        function toggleBtn(){
+            btn.classList.toggle("active");
+            light.classList.toggle("on");
+        }
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
