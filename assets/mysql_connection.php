@@ -1,9 +1,9 @@
 <?php
-$mysqlHost = 'localhost';
+$mysqlHost = 'roundhouse.proxy.rlwy.net';
 $mysqlUsername = 'root';
-$mysqlPassword = 'valo12345';
-$mysqlDatabase = 'guvi';
-$mysqli = new mysqli($mysqlHost, $mysqlUsername, $mysqlPassword, $mysqlDatabase);
+$mysqlPassword = 'ac32d242-cAahg2fggE6ghaD35Ce6eAc';
+$mysqlDatabase = 'railway';
+$mysqli = new mysqli($mysqlHost, $mysqlUsername, $mysqlPassword, $mysqlDatabase,27340);
 if ($mysqli->connect_error) {
     die("MySQL Connection failed: " . $mysqli->connect_error);
 }

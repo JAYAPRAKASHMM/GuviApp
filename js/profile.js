@@ -29,6 +29,12 @@ $(document).ready(function() {
         handleSaveButtonClick($(this));
     });
 
+    $('#submit').on('click', function() {
+        $('.btn-primary').each(function(index, element) {
+            handleSaveButtonClick($(element));
+        });
+    });
+
     $("#logoutButton").click(function() {
         saveUserStatusMySQL(username,"Logged out")
         window.location.href = "index.html";

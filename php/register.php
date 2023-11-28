@@ -22,10 +22,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             ];
             $result = $mongoDB->users->insertOne($userDocument);
             if ($result->getInsertedCount() > 0) {
-                http_response_code(200);
                 echo json_encode(['status' => 'success', 'message' => 'Registration successful']);
             } else {
-                http_response_code(500); 
                 echo json_encode(['status' => 'error', 'message' => 'Registration failed']);
             }
         }

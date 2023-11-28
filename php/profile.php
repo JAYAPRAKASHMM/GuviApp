@@ -1,9 +1,5 @@
 <?php
 include_once('../mongo_connection.php');
-$mongoUri = 'mongodb://localhost:27017/my_application_database';
-$mongoClient = new MongoDB\Client($mongoUri);
-$mongoDB = $mongoClient->my_application_database;
-$users = $mongoDB->users;
 $postData = file_get_contents("php://input");
 if (!empty($postData)) {
     $jsonData = json_decode($postData, true);
