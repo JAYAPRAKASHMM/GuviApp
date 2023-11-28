@@ -1,7 +1,7 @@
-# Tile by Guvi App - README
+# Guvi App - README
 
 ---
-
+# Breif of My Guvi app
 ## Table of Contents
 
 1. [Introduction](#introduction)
@@ -34,7 +34,7 @@ Welcome to Tile by Guvi App! This application is designed to provide a seamless 
 
 ---
 
-## Features
+## Features ✅
 
 1.User logs are entered in MySql
 2.User details are stored in MongoDB
@@ -53,6 +53,7 @@ Welcome to Tile by Guvi App! This application is designed to provide a seamless 
 - **CSS:** Cascading Style Sheets for styling the visual presentation.
 - **JavaScript:** A versatile scripting language for dynamic behavior.
 - **jQuery:** A fast and feature-rich JavaScript library.
+- **Bootstrap :** Binds HTML and CSS.
 
 ### Backend
 
@@ -66,8 +67,8 @@ Welcome to Tile by Guvi App! This application is designed to provide a seamless 
 
 ---
 
-## Built Tools
-
+## Built Tools & Version controls
+- **Composer** - Used to manage packages of php
 - **GitHub:** A platform for version control and collaborative development.
 - **Git:** A distributed version control system for tracking changes in source code.
 
@@ -81,11 +82,11 @@ Welcome to Tile by Guvi App! This application is designed to provide a seamless 
 
 ## Project Hosting
 
-The Tile by Guvi App is proudly hosted, and you can experience it by visiting the [Hosted Link](https://godly-oranges-production.up.railway.app/index.html).
+The Tile by Guvi App is proudly hosted, and you can experience it by visiting the [Hosted Link](https://godly-oranges-production.up.railway.app/index.html).  <---------- click here
 
 ---
 
-Feel free to explore, and thank you for your time
+Feel free to explore, and thanks you for your time😊
 
 ---
 
