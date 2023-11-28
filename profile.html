@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/profile.css">
+</head>
+
+<body>
+    <div class="container mt-3">
+        <h1 class="text-white">Welcome to Guvi</h1><br>
+        <h2 class="text-white">User profile</h2>
+        <div >
+            <div >
+                <div >
+                    <strong class="text-white">userId :</strong>
+                    <p id="username" class="text-white mx-5"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="man" class="col-12 col-md-7 mb-5">
+        <div class="form-group row mx-sm-3 mb-2">
+            <label for="dob" class="col-sm-3 col-form-label">Date of Birth:</label>
+            <div class="col-sm-6">
+                <input type="text" class="form-control" id="dob" name="dob" required>
+            </div>
+            <div class="col-sm-3">
+                <button type="button" class="btn btn-primary">Save</button>
+            </div>
+        </div>
+    
+        <div class="form-group row mx-sm-3 mb-2">
+            <label for="gender" class="col-sm-3 col-form-label">Gender:</label>
+            <div class="col-sm-6">
+                <select class="form-control" id="gender" name="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="col-sm-3">
+                <button type="button" class="btn btn-primary">Save</button>
+            </div>
+        </div>
+    
+        <div class="form-group row mx-sm-3 mb-2">
+            <label for="institution" class="col-sm-3 col-form-label">Institution:</label>
+            <div class="col-sm-6">
+                <input type="text" class="form-control form-control-sm" id="institution" name="institution" required>
+            </div>
+            <div class="col-sm-3">
+                <button type="button" class="btn btn-primary">Save</button>
+            </div>
+        </div>
+    
+        <div class="form-group row mx-sm-3 mb-2">
+            <label for="yearOfPassing" class="col-sm-3 col-form-label">Year of Passing:</label>
+            <div class="col-sm-6">
+                <input type="number" class="form-control" id="yearOfPassing" name="yearOfPassing" min="2000" max="2030" required>
+            </div>
+            <div class="col-sm-3">
+                <button type="button" class="btn btn-primary">Save</button>
+            </div>
+        </div>
+    
+        <div class="form-group row mx-sm-3 mb-2">
+            <label for="phoneNumber" class="col-sm-3 col-form-label">Phone Number:</label>
+            <div class="col-sm-6">
+                <input type="number" class="form-control" id="phoneNumber" name="phoneNumber" required>
+            </div>
+            <div class="col-sm-3">
+                <button type="button" class="btn btn-primary">Save</button>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-12">
+                <button id="finishButton" class="btn btn-warning mt-2">Finish</button>
+                <button type="button" class="btn btn-success mt-2" id="downloadBtn">Download</button>
+                <button id="logoutButton" class="btn btn-danger mt-2">Logout</button>
+            </div>
+        </div>
+    </div>
+    
+    <div class="modal fade" id="responseModal" tabindex="-1" role="dialog" aria-labelledby="responseModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="responseModalLabel">Your Details are Updated Sucessfully!!<br>
+                </div>
+                <div class="modal-body">
+                    <h1>Summary:</h1>
+                    <ol>
+                        <li>The User logs are stored in MySQL.</li>
+                        <li>The User details are stored in MongoDB.</li>
+                        <li>The details are individually stored by AJAX post in MongoDB.</li>
+                        <li>The project structure is strictly maintained.</li>
+                    </ol>
+                    <h1>Additional Features:</h1>
+                    <ol>
+                        <li>Download Data</li>
+                        <li>Users Status with Timestamp</li>
+                        <li>Modal Usage</li>
+                        <li>Landing Page</li>
+                    </ol>
+                    <h3>Developed by JayaPrakash V</h3>
+                    <p>Email: jayaprakashv26@gmail.com</p>
+                    <p id="responseMessage"> </p>
+                    <a href="https://www.guvi.com" target="_blank">
+                        <button class="btn btn-success">Explore Guvi</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    <div class="logo-container">
+        <img class="md-6" src="https://i.postimg.cc/LXjvgfk2/unnamed.png" alt="Guvi Logo"><br>
+        <h1 class="col-md-6 offset-md-3">Grab Your Vernacular Imprint</h1>
+    </div>
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="Js/profile.js"></script>
+    </body>
+    
+    </html>
+    
