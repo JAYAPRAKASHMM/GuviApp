@@ -24,7 +24,7 @@
 5. [Continuous Integration/Continuous Deployment (CI/CD)](#continuous-integrationcontinuous-deployment-cicd)
     - Railway
 6. [Project Hosting](#project-hosting)
-    - [Hosted Link](https://godly-oranges-production.up.railway.app/index.html)
+    - [Hosted Link](https://godly-oranges-production.up.railway.app/index.html) <---click here
 
 ---
 
