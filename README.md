@@ -92,7 +92,7 @@ The Tile by Guvi App is proudly hosted, and you can experience it by visiting th
 ## Tables used
 I have used 3 Collections
 user_status-
-    [![user_status.png](https://postimg.cc/QFVrPrYp/user_status.png)](https://postimg.cc/QFVrPrYp)
+    [![userstatus.png](https://i.postimg.cc/8CL3pcMj/userstatus.png)](https://postimg.cc/t1CDDXrj)
 user-
     [![user.png](https://i.postimg.cc/zvFPnc05/user.png)](https://postimg.cc/0KrfvZTH)  
 users(details)-
