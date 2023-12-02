@@ -25,6 +25,10 @@
     - Railway
 6. [Project Hosting](#project-hosting)
     - [Hosted Link](https://godly-oranges-production.up.railway.app/index.html) <---click here
+7. [Tables used-attachments](#Tables used)
+    - user_status
+    - user
+    - users(details)
 
 ---
 
@@ -85,7 +89,15 @@ Welcome to Tile by Guvi App! This application is designed to provide a seamless 
 The Tile by Guvi App is proudly hosted, and you can experience it by visiting the [Hosted Link](https://godly-oranges-production.up.railway.app/index.html).  <---------- click here
 
 ---
-
+## Tables used
+I have used 3 Collections
+user_status-
+    [![user_status.png](https://postimg.cc/QFVrPrYp/user_status.png)](https://postimg.cc/QFVrPrYp)
+user-
+    [![user.png](https://i.postimg.cc/zvFPnc05/user.png)](https://postimg.cc/0KrfvZTH)  
+users(details)-
+    [![users-details.png](https://i.postimg.cc/K8Dv1Gns/users-details.png)](https://postimg.cc/QFVrPrYp)
+---
 Feel free to explore, and thanks you for your time😊
 
 ---
