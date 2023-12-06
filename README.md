@@ -24,7 +24,7 @@
 5. [Continuous Integration/Continuous Deployment (CI/CD)](#continuous-integrationcontinuous-deployment-cicd)
     - Railway
 6. [Project Hosting](#project-hosting)
-    - [Hosted Link](https://godly-oranges-production.up.railway.app/index.html) <---click here
+    - [Hosted Link](https://jayaprakashofficial.000webhostapp.com/index.html) <---click here
 7. [Tables used-attachments](#Tables used)
     - user_status
     - user
@@ -86,7 +86,7 @@ Welcome to Tile by Guvi App! This application is designed to provide a seamless 
 
 ## Project Hosting
 
-The Tile by Guvi App is proudly hosted, and you can experience it by visiting the [Hosted Link](https://godly-oranges-production.up.railway.app/index.html).  <---------- click here
+The Tile by Guvi App is proudly hosted, and you can experience it by visiting the [Hosted Link](https://jayaprakashofficial.000webhostapp.com/index.html).  <---------- click here
 
 ---
 ## Tables used
